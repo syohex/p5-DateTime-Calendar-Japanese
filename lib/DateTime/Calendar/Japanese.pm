@@ -87,7 +87,7 @@ sub _era2cycle
         DateTime::Calendar::Chinese->from_object(object => $era->start);
 
     my $ny_in_year =
-        DateTime::Event::Chinese->new_year_for_gregorian_year(datetime => $era->start);
+        DateTime::Event::Chinese::chinese_new_year_for_gregorian_year($era->start);
 
     my $elapsed_years = $cc_date->elapsed_years + $era_year;
     if ($ny_in_year >= $cc_date->{gregorian}) {
@@ -170,8 +170,8 @@ sub _calc_era_components
         datetime => $self->{gregorian} );
     if ($era) {
         my $midday = truncate_to_midday($self->{gregorian}->clone);
-        my $ny_this_gy = DateTime::Event::Chinese->new_year_for_gregorian_year(datetime => $midday);
-        my $ny_start_gy = DateTime::Event::Chinese->new_year_for_gregorian_year(datetime => $era->start);
+        my $ny_this_gy = DateTime::Event::Chinese::chinese_new_year_for_gregorian_year($midday);
+        my $ny_start_gy = DateTime::Event::Chinese::chinese_new_year_for_gregorian_year($era->start);
 
 
         my $year = $midday->year() - $era->start->year() + 1;
