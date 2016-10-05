@@ -1,0 +1,65 @@
+{
+   "abstract" : "DateTime Extension for Traditional Japanese Calendars",
+   "author" : [
+      "Copyright (c) 2004-2007 Daisuke Maki <daisuke@endeworks.jp<gt>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v3.0.4, CPAN::Meta::Converter version 2.150001",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "DateTime-Calendar-Japanese",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.035"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion::Fast" : "0.04",
+            "Test::PAUSE::Permissions" : "0.04",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "DateTime" : "0",
+            "DateTime::Calendar::Chinese" : "0",
+            "DateTime::Calendar::Japanese::Era" : "0",
+            "DateTime::Event::Sunrise" : "0",
+            "DateTime::Util::Calc" : "0",
+            "Params::Validate" : "0"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "version" : "0.06001",
+   "x_authority" : "cpan:SYOHEX",
+   "x_contributors" : [
+      "Syohei YOSHIDA <syohex@gmail.com>"
+   ]
+}

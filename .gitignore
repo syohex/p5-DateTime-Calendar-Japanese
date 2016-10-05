@@ -1,0 +1,11 @@
+/DateTime-Calendar-Japanese-0.06001-*
+/.build
+/_build_params
+/Build
+/Build.bat
+!Build/
+!META.json
+!LICENSE
+/DateTime-Calendar-Japanese-*
+/blib
+MYMETA*
