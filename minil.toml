@@ -1,5 +1,5 @@
 name = "DateTime-Calendar-Japanese"
-# badges = ["travis"]
+badges = ["travis"]
 # authority="cpan:DMAKI"
 
 module_maker="ModuleBuildTiny"

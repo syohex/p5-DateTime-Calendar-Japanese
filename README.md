@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/syohex/p5-DateTime-Calendar-Japanese.svg?branch=master)](https://travis-ci.org/syohex/p5-DateTime-Calendar-Japanese)
 # NAME
 
 DateTime::Calendar::Japanese - DateTime Extension for Traditional Japanese Calendars

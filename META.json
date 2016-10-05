@@ -57,8 +57,18 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/syohex/p5-DateTime-Calendar-Japanese/issues"
+      },
+      "homepage" : "https://github.com/syohex/p5-DateTime-Calendar-Japanese",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/syohex/p5-DateTime-Calendar-Japanese.git",
+         "web" : "https://github.com/syohex/p5-DateTime-Calendar-Japanese"
+      }
+   },
    "version" : "0.06001",
-   "x_authority" : "cpan:SYOHEX",
    "x_contributors" : [
       "Syohei YOSHIDA <syohex@gmail.com>"
    ]
