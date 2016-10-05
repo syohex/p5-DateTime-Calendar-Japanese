@@ -1,6 +1,9 @@
+sudo: required
+dist: trusty
 language: perl
-sudo: false
 perl:
   - "5.8"
   - "5.16"
   - "5.22"
+before_install:
+    - sudo apt-get install libgmp-dev libmpfr-dev
